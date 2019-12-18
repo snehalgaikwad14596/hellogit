@@ -3,7 +3,8 @@ package com.csi.model;
 import org.springframework.stereotype.Component;
 
 @Component
-public class Customer {
+public class Customer
+{
 	private int customerId;
 	private String customerName;
 	private long customercontactnumber;
@@ -11,7 +12,7 @@ public class Customer {
 	public int getCustomerId()
 	{
 		System.out.println("welcome to github");
-
+System.out.println("Hello");
 		return customerId;
 	}
 	public void setCustomerId(int customerId) {
